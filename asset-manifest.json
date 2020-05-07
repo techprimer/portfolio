@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/techprimer.github.io/static/css/main.fa765bb6.chunk.css",
+    "main.js": "/techprimer.github.io/static/js/main.da83a979.chunk.js",
+    "main.js.map": "/techprimer.github.io/static/js/main.da83a979.chunk.js.map",
+    "runtime-main.js": "/techprimer.github.io/static/js/runtime-main.4f603215.js",
+    "runtime-main.js.map": "/techprimer.github.io/static/js/runtime-main.4f603215.js.map",
+    "static/css/2.5942f7ea.chunk.css": "/techprimer.github.io/static/css/2.5942f7ea.chunk.css",
+    "static/js/2.f6a5865e.chunk.js": "/techprimer.github.io/static/js/2.f6a5865e.chunk.js",
+    "static/js/2.f6a5865e.chunk.js.map": "/techprimer.github.io/static/js/2.f6a5865e.chunk.js.map",
+    "index.html": "/techprimer.github.io/index.html",
+    "precache-manifest.43083ae43d8d5fe3c8bbbd1c9e54486a.js": "/techprimer.github.io/precache-manifest.43083ae43d8d5fe3c8bbbd1c9e54486a.js",
+    "service-worker.js": "/techprimer.github.io/service-worker.js",
+    "static/css/2.5942f7ea.chunk.css.map": "/techprimer.github.io/static/css/2.5942f7ea.chunk.css.map",
+    "static/css/main.fa765bb6.chunk.css.map": "/techprimer.github.io/static/css/main.fa765bb6.chunk.css.map",
+    "static/js/2.f6a5865e.chunk.js.LICENSE.txt": "/techprimer.github.io/static/js/2.f6a5865e.chunk.js.LICENSE.txt",
+    "static/media/Resume.pdf": "/techprimer.github.io/static/media/Resume.d2d7bac0.pdf",
+    "static/media/designicon.png": "/techprimer.github.io/static/media/designicon.05902294.png",
+    "static/media/development.png": "/techprimer.github.io/static/media/development.1fb3be47.png",
+    "static/media/divimage.jpg": "/techprimer.github.io/static/media/divimage.8e114dc6.jpg",
+    "static/media/ecom.png": "/techprimer.github.io/static/media/ecom.de7c1277.png",
+    "static/media/font-awesome.min.css": "/techprimer.github.io/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/hms.png": "/techprimer.github.io/static/media/hms.af2d4097.png",
+    "static/media/jarvis.PNG": "/techprimer.github.io/static/media/jarvis.7f451cba.PNG",
+    "static/media/lms.png": "/techprimer.github.io/static/media/lms.bdca5fac.png",
+    "static/media/login.png": "/techprimer.github.io/static/media/login.a0869697.png",
+    "static/media/self.PNG": "/techprimer.github.io/static/media/self.6792a061.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f603215.js",
+    "static/css/2.5942f7ea.chunk.css",
+    "static/js/2.f6a5865e.chunk.js",
+    "static/css/main.fa765bb6.chunk.css",
+    "static/js/main.da83a979.chunk.js"
+  ]
+}
