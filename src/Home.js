@@ -63,7 +63,7 @@ const Home = ()=>
           <div className="mt-5 " style={{fontSize:'80px'}}><i class="fa fa-cubes" aria-hidden="true"></i></div>
           <h2 className="text-center mt-5">Web Development And Mini Projects </h2>
           <div className="mt-5">
-          <Link to="/Project" >
+          <Link to="project" >
             <button class="button">Project</button>
           </Link>
         </div>
