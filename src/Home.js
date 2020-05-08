@@ -1,6 +1,6 @@
 import React from 'react' ;
 import divimage from './divimage.jpg'
-import {Image , Col ,Row,Card,CardColumns,ProgressBar,Button }from 'react-bootstrap';
+import {Image , Col ,Row}from 'react-bootstrap';
 import { Link , BrowserRouter } from 'react-router-dom';
 import "./Home.css"
 import resume from './Resume.pdf'
@@ -23,7 +23,7 @@ const Home = ()=>
                <Row className="content ml-5 " >
                <Col xs={12}  >
                <h1 style={{fontSize:'50px'}}>HELLO , I'M YASH  </h1>
-               <p className="ml-6" >WEB DEVELOPER</p>
+               <p className="ml-5" >WEB DEVELOPER</p>
                <div id="social-link">
                <a href="https://github.com/techprimer/" id="links" to="/"><i className="fa fa-github  " aria-hidden="true"></i></a>
                <a href="linkedin.com/in/yash-patel-4825b41a9" id="links" ><i className="fa fa-linkedin px-4" aria-hidden="true"></i></a>
