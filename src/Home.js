@@ -17,13 +17,13 @@ const Home = ()=>
         
         <div>
           
-             <div className="poster-image text-center " id="main">
+             <div className="container-fluid poster-image text-center " id="main">
                
            
                <Row className="content ml-5 " >
                <Col xs={12}  >
                <h1 style={{fontSize:'50px'}}>HELLO , I'M YASH  </h1>
-               <p className="ml-5" >WEB DEVELOPER</p>
+               <p className="ml-6" >WEB DEVELOPER</p>
                <div id="social-link">
                <a href="https://github.com/techprimer/" id="links" to="/"><i className="fa fa-github  " aria-hidden="true"></i></a>
                <a href="linkedin.com/in/yash-patel-4825b41a9" id="links" ><i className="fa fa-linkedin px-4" aria-hidden="true"></i></a>
