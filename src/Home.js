@@ -22,8 +22,8 @@ const Home = ()=>
            
                <Row className="content ml-5 " >
                <Col xs={12}  >
-               <h1 style={{fontSize:'50px'}}>HELLO , I'M YASH  </h1>
-               <p className="ml-6" >WEB DEVELOPER</p>
+               <h1 style={{fontSize:'50px'}} id="first-div-head">HELLO , I'M YASH  </h1>
+               <p className="ml-6" style={{color:'white'}}id="first-div-para">WEB DEVELOPER</p>
                <div id="social-link">
                <a href="https://github.com/techprimer/" id="links" to="/"><i className="fa fa-github  " aria-hidden="true"></i></a>
                <a href="linkedin.com/in/yash-patel-4825b41a9" id="links" ><i className="fa fa-linkedin px-4" aria-hidden="true"></i></a>
@@ -94,7 +94,7 @@ const Home = ()=>
               </Row>
               <Row >
                 <div className="container mt-5 pb-5">
-                  <p className="aboutme-para text-center justify-content">Hey!My name is yash and i'm a web developer with  a passion for frontend development and design.i'm currently third year student at sakec pursuing a degree in Information Technology.i aspire towards a career that allow me to channel my creativity through creating beautiful software and engaging experience    </p>
+                  <p className="aboutme-para text-center justify-content" style={{fontWeight:'15px'}}>Hey!My name is yash and i'm a web developer with  a passion for frontend development and design.i'm currently third year student at sakec pursuing a degree in Information Technology.i aspire towards a career that allow me to channel my creativity through creating beautiful software and engaging experience    </p>
                 </div>
               </Row>
 
