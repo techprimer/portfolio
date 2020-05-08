@@ -92,7 +92,7 @@ const Home = ()=>
                   <img src={self} className="text-center" alt="my image" ></img>
                 </div>
               </Row>
-              <Row >
+              <Row  className="ml-5 mt-3  d-flex justify-content-center align-items-center">
                 <div className="container mt-5 pb-5">
                   <p className="aboutme-para ml-5 text-center justify-content" style={{fontWeight:'15px'}}>Hey!My name is yash and i'm a web developer with  a passion for frontend development and design.i'm currently third year student at sakec pursuing a degree in Information Technology.i aspire towards a career that allow me to channel my creativity through creating beautiful software and engaging experience    </p>
                 </div>
