@@ -64,7 +64,7 @@ const Home = ()=>
           <div className="mt-5 " style={{fontSize:'80px'}}><i class="fa fa-cubes" aria-hidden="true"></i></div>
           <h2 className="text-center mt-5">Web Development And Mini Projects </h2>
           <div className="mt-5">
-          <Link to="portfolio/project" >
+          <Link to="/project" >
             <button class="button">Project</button>
           </Link>
         </div>
@@ -198,8 +198,8 @@ const Home = ()=>
                </div>
 
              </Row>
-             <Row className="mt-2 py-5 text-center">
-               <Col md={5} className="ml-5">
+             <Row className="mt-2 px-5 py-5 text-center">
+               <Col md={5} xs={12} className="px-5">
                 
                  <div className="mt-5 text-center ">
                   <img  src={design} style={{width:'230px',borderRadius:'50%',height:'230px'}} alt="my image" className="text-center"></img>
@@ -212,7 +212,7 @@ const Home = ()=>
 
 
                </Col>
-               <Col md={5} className="ml-5  text-center">
+               <Col md={5} xs={12} className="px-5 ">
                  
                  <div className="mt-5 text-center ">
                   <img src={dev} style={{width:'230px',borderRadius:'50%',height:'230px'}} alt="my image" className="text-center"></img>
@@ -237,13 +237,13 @@ const Home = ()=>
 
              </Row>
              <Row className="mt-5 ml-5 text-center">
-               <Col>               
+               <Col xs={12} md={6}>               
                <div className="emailid">
                 <i class="fa fa-envelope text-white" aria-hidden="true"><p>yashpatel.techprimer@gmail.com</p></i>
                
               </div>
               </Col>
-              <Col >
+              <Col xs={12} md={6} >
               <div id="social-link">
                 
               <a href="https://github.com/techprimer/" id="links" to="/"><i className="fa fa-github  " aria-hidden="true"></i></a>
