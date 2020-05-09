@@ -6,8 +6,15 @@ body
     margin: 0px;
     padding:0px;
     overflow-x: hidden!important;
+    box-sizing: border-box;
 }
 
+div{
+    
+    overflow-x: hidden!important;
+    box-sizing: border-box;
+   
+}
 
 .poster-image
 {
@@ -16,7 +23,8 @@ body
   height: 700px!important;
   object-fit: contain!important;
  letter-spacing: 8px;
-  
+ box-sizing: border-box;
+ padding: 0px;
 
   }
   .poster-image:hover
@@ -183,24 +191,22 @@ body
 {
     
     width: 100%;
-    margin: -10px auto 0;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    margin: -9px auto 0;
+    background-color:#ff0;
+    display: block;
 }
 .sec-div .box-div
 {
     position: relative;
     width: 100%;
     height: 70%px;
-    margin: 10px;
-    box-sizing: border-box;
-    display: inline-block;
+    display: block;
 }
 .sec-div .box-div .imgbox-div
 {
     position: relative;
     overflow: hidden;
+    width: 100%;
     
 }
 
@@ -304,16 +310,4 @@ body
   width: 100%;
 }
 
-@media (min-width: 776px){
 
-.card-columns {
-    column-count: 3!important;
-    -webkit-column-gap: 0.25rem;
-    -moz-column-gap: 1.25rem;
-    grid-column-gap: 1.25rem;
-    column-gap: 1.25rem;
-    orphans: 1;
-    widows: 1;
-}
-
-}

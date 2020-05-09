@@ -17,10 +17,10 @@ const Home = ()=>
         
         <div>
           
-             <div className="container-fluid poster-image text-center " id="main">
+             <div className="poster-image text-center " id="main">
                
            
-               <Row className="content ml-5 " >
+               <Row className="content " >
                <Col xs={12}  >
                <h1 style={{fontSize:'50px'}} id="first-div-head">HELLO , I'M YASH  </h1>
                <p className="ml-6" style={{color:'white'}}id="first-div-para">WEB DEVELOPER</p>
@@ -43,11 +43,12 @@ const Home = ()=>
             
             <div >
             <div>
+
     <div className="pro-div">
     
     <div className="sec-div pb-5" id="projects">
       
-      <Row >
+      <Row  >
         
       
       <div className="box-div">
@@ -82,92 +83,92 @@ const Home = ()=>
             </div>
 
             <div className="aboutme" id="aboutme">
-             <Row className="ml-5 mt-3  d-flex justify-content-center align-items-center">
+             <Row className="mt-5  d-flex justify-content-center align-items-center">
                 <div className="mt-5" >
                   <h2 className=" text-center d-flex justify-content">A LITTLE BIT ABOUT ME</h2>
                 </div>
               </Row>
-              <Row  className="ml-5 mt-3  d-flex justify-content-center align-items-center" >
-                <div className="mt-5 ml-5 text-center img-wrap">
+              <Row  className=" mt-5  d-flex justify-content-center align-items-center" >
+                <div className="text-center img-wrap">
                   <img src={self} className="text-center" alt="my image" ></img>
                 </div>
               </Row>
-              <Row  className="ml-5 mt-3  d-flex justify-content-center align-items-center">
+              <Row  className="pl-1 pr-1 mt-3  ">
                 <div className="container mt-5 pb-5">
-                  <p className="aboutme-para ml-5 text-center justify-content" style={{fontWeight:'15px'}}>Hey!My name is yash and i'm a web developer with  a passion for frontend development and design.i'm currently third year student at sakec pursuing a degree in Information Technology.i aspire towards a career that allow me to channel my creativity through creating beautiful software and engaging experience    </p>
+                  <p className="aboutme-para  text-center" style={{fontWeight:'15px'}}>Hey!My name is yash and i'm a web developer with  a passion for frontend development and design.i'm currently third year student at sakec pursuing a degree in Information Technology.i aspire towards a career that allow me to channel my creativity through creating beautiful software and engaging experience    </p>
                 </div>
               </Row>
 
 
            </div>
            <div className="skillset" id="skill">
-             <Row className="ml-5 py-3">
-               <h2 className="container ml-5" style={{color:'white'}}>SKILLS</h2>
+             <Row className="container px-4">
+               <h2 className="ml-5" style={{color:'white'}}>SKILLS</h2>
              </Row>
-             <Row className="ml-5">
-              <Col xs={5}>
+             <Row className="px-3">
+              <Col xs={12} md={5}>
               <p className="ml-5">HTML</p>
              <div class="progress ml-5 "> 
               <div class="progress-bar" style={{width:'80%'}}></div>
             </div>
             </Col>
-            <Col xs={5} className="ml-5">
+            <Col xs={12} md={5} >
               <p className="ml-5 ">CSS</p>
              <div class="progress ml-5 "> 
               <div class="progress-bar" style={{width:'75%'}}></div>
             </div>
             </Col>
              </Row>
-             <Row className="ml-5">
-              <Col xs={5}>
+             <Row className="px-3 mt-3">
+              <Col xs={12} md={5}>
               <p className="ml-5">JAVASCRIPT</p>
              <div class="progress ml-5 "> 
               <div class="progress-bar" style={{width:'60%'}}></div>
             </div>
             </Col>
-            <Col xs={5} className="ml-5">
+            <Col xs={12} md={5}>
               <p className="ml-5">PYTHON</p>
              <div class="progress ml-5 "> 
               <div class="progress-bar" style={{width:'80%'}}></div>
             </div>
             </Col>
              </Row>
-             <Row className="ml-5">
-              <Col xs={5}>
+             <Row className="px-3 mt-3">
+              <Col xs={12} md={5}>
               <p className="ml-5">C </p>
              <div class="progress ml-5 "> 
               <div class="progress-bar" style={{width:'80%'}}></div>
             </div>
             </Col>
-            <Col xs={5} className="ml-5">
+            <Col xs={12} md={5} >
               <p className="ml-5">REACT</p>
              <div class="progress ml-5 "> 
               <div class="progress-bar" style={{width:'60%'}}></div>
             </div>
             </Col>
              </Row>
-             <Row className="ml-5">
-              <Col xs={5}>
+             <Row className="px-3 mt-3">
+              <Col xs={12} md={5}>
               <p className="ml-5">BOOTSTRAP</p>
              <div class="progress ml-5 "> 
               <div class="progress-bar" style={{width:'70%'}}></div>
             </div>
             </Col>
-            <Col xs={5} className="ml-5">
+            <Col xs={12} md={5}>
               <p className="ml-5">PYTHON FOR DATASCIENCE</p>
              <div class="progress ml-5 "> 
               <div class="progress-bar" style={{width:'65%'}}></div>
             </div>
             </Col>
              </Row>
-             <Row className="pb-5 ml-5">
-              <Col xs={5}>
+             <Row className="px-3 mt-3 pb-5">
+              <Col xs={12} md={5}>
               <p className="ml-5">DATA STRUCTURE</p>
              <div class="progress ml-5 "> 
               <div class="progress-bar" style={{width:'65%'}}></div>
             </div>
             </Col>
-            <Col xs={5} className="ml-5">
+            <Col xs={12} md={5} >
               <p className="ml-5">GIT</p>
              <div class="progress ml-5 "> 
               <div class="progress-bar" style={{width:'70%'}}></div>

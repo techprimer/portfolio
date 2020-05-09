@@ -14,3 +14,4 @@
 [0504/133531.045:WARNING:minidump_to_upload_parameters.cc(36)] duplicate key guid, discarding value d040fb0a-3568-4d42-ab9e-d51617db525e
 [0504/135131.014:WARNING:minidump_to_upload_parameters.cc(36)] duplicate key guid, discarding value d040fb0a-3568-4d42-ab9e-d51617db525e
 [0504/135406.626:WARNING:minidump_to_upload_parameters.cc(36)] duplicate key guid, discarding value d040fb0a-3568-4d42-ab9e-d51617db525e
+[0508/194244.776:WARNING:minidump_to_upload_parameters.cc(36)] duplicate key guid, discarding value d040fb0a-3568-4d42-ab9e-d51617db525e
